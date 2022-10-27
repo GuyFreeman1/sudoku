@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="log-in.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <img src="Header.png" width="300px" height="150px" id="header">
+                    <form id="form">
+                        <input id='username' type="text" class="input-box" placeholder="Your User Name" required>
+                        <div id="un-error"></div>
+                        <input id="password" type="password" class="input-box" placeholder="Password" required>
+                        <div id="pw-error"></div>
+                        <br>
+                        <button type="button" class="submit-btn" onclick="validate()">Submit</button>
+                    </form>
+
+                </div>
+
+                <script src="log-in.js"></script>
+</body>
+
+</html>
